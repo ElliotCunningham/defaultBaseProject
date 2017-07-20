@@ -22,6 +22,7 @@
     "nano": "^6.3.0",
     "nodemon": "^1.11.0",
     "object-assign": "^4.1.1",
+    "office-ui-fabric-react": "^4.21.3",
     "react": "^15.5.4",
     "react-dom": "^15.4.2",
     "react-router": "^3.0.3",
@@ -32,7 +33,7 @@
     "webpack-dev-server": "^1.14.1"
   },
   "scripts": {
-    "build:server": "node_modules/.bin/webpack -w --port 3000 --config serveur/tasks/compilator/webpack.config.js",
+    "build:server": "node_modules/.bin/webpack -w --port 3000 --config server/tasks/compilator/webpack.config.js",
     "start": "cd server/public && ../../node_modules/.bin/nodemon --delay 2500ms server.bundle.js",
     "wpds": "node_modules/.bin/webpack-dev-server --inline --port 3012 -w -p --devtool eval --progress --colors --config front/compilator/Webpackds.config.js",
     "build": "un jour je l'ajouterai !!!!!"

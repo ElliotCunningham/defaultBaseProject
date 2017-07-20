@@ -25,7 +25,7 @@ const frontEnd = {
   },
   devServer: {
     inline: true,
-    contentBase: `./build/app/public/`
+    contentBase: `./front/build/app/public/`
   },
   devtool: 'eval',
   debug: true,

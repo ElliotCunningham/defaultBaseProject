@@ -22,7 +22,7 @@ fs.readdirSync('node_modules')
 
 const serverConf = {
   entry: {
-    node: ['babel-polyfill', `./serveur/index.js`]
+    node: ['babel-polyfill', `./server/index.js`]
   },
   target: 'node',
   devtool: 'eval',
