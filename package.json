@@ -23,6 +23,7 @@
     "nodemon": "^1.11.0",
     "object-assign": "^4.1.1",
     "office-ui-fabric-react": "^4.21.3",
+    "pouchdb": "^6.3.4",
     "react": "^15.5.4",
     "react-dom": "^15.4.2",
     "react-router": "^3.0.3",
