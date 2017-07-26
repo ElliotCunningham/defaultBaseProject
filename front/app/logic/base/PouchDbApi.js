@@ -60,12 +60,12 @@ class PouchDbApi {
   fetchAllDocs(option = false) {
     const options = (option) ?option :{ include_docs: true, attachments: true };
 
-    return this.pouchBdd.allDoc(options);
+    return this.pouchBdd.allDocs(options);
   }
 
   _startChangeListenner(callBack) {
     const option = { since: 'now', live: true,include_docs: true };
-    this.pouchBdd.change(option)
+    this.pouchBdd.changes(option)
       .on('change', callBack)
       .on('complete', () => { console.log(this.identifier, 'end listen change'); })
       .on('error', (err) => {
